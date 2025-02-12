@@ -1,0 +1,164 @@
+ 
+  .container {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f8fa;
+  }
+
+  .main-container{
+    display: flex;
+    max-width: 75%;
+    align-items: center;
+    align-self: center;
+  }
+
+  .home-content{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .home-content h2{
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 40px;
+  }
+  
+  .header {
+    background-color: rgb(254, 254, 255);
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 300px;
+  }
+  
+  .video {
+    width: 600px;
+    height: 300px;
+    margin: 20px;
+  }
+  
+  .cta-section {
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    background-color: #f28948;
+    color: white;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .btn {
+    background-color: white;
+    color: red;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 300px;
+    height: 50px;
+  }
+  
+  .footer {
+    background-color: lightgray;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .date-time{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 50px;
+  }
+
+  .cta-main-txt{
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .cta-txt{
+    font-size: 20px;
+  }
+
+  .dis-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .register-btn{
+    background-color: #f28948;
+    border: none;
+    height: 40px;
+    width: 250px;
+    margin: 25px;
+    color: white;
+    font-size: 16px;
+    align-self: center;
+  }
+
+
+  .description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+  }
+
+  .description ul li{
+    font-size: 18px;
+    margin: 20px;
+  }
+
+
+  .heading-bloc-a{
+    font-size: 30px;
+  }
+
+  .feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f8fa;
+  }
+
+  .feature h2{
+    margin-top: 80px;
+    font-weight: 400;
+  }
+
+  .feature iframe{
+    width: 560px;
+    height: 315px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .cta-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    text-align: center;
+    justify-content: center;
+    background-color: #f28948;
+  }
+
+  .cta-two h1{
+    font-weight: 300;
+    color: white;
+  }
+
